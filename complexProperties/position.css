@@ -1,0 +1,30 @@
+body {
+    height: 200vh;
+}
+
+div{
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.child{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+}
+.blue{
+    background-color: blue;
+    position: sticky;
+    top: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}

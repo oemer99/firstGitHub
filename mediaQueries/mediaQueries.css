@@ -1,0 +1,39 @@
+/* 
+Common Breakpoints (max-width)
+
+576px
+    Mobile Phones
+     
+768px
+    Tablets
+
+992px
+    Desktops
+
+1200px+
+    Large Desktopts
+    */
+
+div{
+    background-color: red;
+    color: white;
+    font-size: 24px;
+}
+
+@media (max-width: 992px){
+    div{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    div{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px){
+    div{
+        font-size: 16px;
+    }
+}
